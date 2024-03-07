@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    
+}
+
+.box{
+    width: 94%;
+    margin-left: auto;
+}
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header{
+    height: 5%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.rubrik > h1{
+    background-color: #2E5266;
+    width: 70%;
+    height: 90px;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rubrik{
+    padding: 50px;
+    color: #fff;
+    font-family: 'Protest Guerrilla';
+    font-size: 30px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+}
+
+.objekt{
+    width: 80%;
+    margin: auto;
+}
+
+.objekt > hr{
+    width: 80%;
+    height: 2px;
+    background-color: #2E5266;
+    border-color: #2E5266;
+    border-radius: 20px;
+}
+
+.btn > img{
+    width: 100%;
+}
+
+.produkt >.btn{
+    width: 50%;
+    height: 60px;
+    margin-top: -80px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: #2E5266;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    transition: ease-in-out 0.5s;
+    
+
+    cursor: pointer;
+    &:hover{
+        background-color: #3c6b84;  
+    }
+}
+
+.btn{
+    opacity: 0;
+
+}
+
+.produkt:hover > .btn{
+    opacity: 1;
+}
+
+.produkt-bild > img{
+    width: 100%;
+    border-radius: 20px;
+}

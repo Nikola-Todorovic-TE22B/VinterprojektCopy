@@ -1,0 +1,12 @@
+<main>
+        <div class="objekt">
+            <div class="before">
+                <img src="/bilder/Namnlös(1).jpg" alt="match">
+            </div>
+            <div class="after"> 
+                <div class="add-to-cart">
+                    <img src="/bilder/Namnlös(2).png" alt="buy access">
+                </div>
+            </div>
+        </div>
+    </main>

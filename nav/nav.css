@@ -1,0 +1,32 @@
+nav{
+    width: 6%;
+    height: 100%;
+    background-color: #2E5266;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+nav > hr{
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+
+.navbild > img{
+    height: 45px;
+    width: auto;
+}
+
+.kundvagn > a > img,
+.hem > a > img{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}

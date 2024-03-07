@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Kundvagn.css">
+    <link rel="stylesheet" href="/nav/nav.css">
+
+    <script defer src="./java.js"></script>
+</head>
+<body onload="loadCart()">
+    
+    <nav>
+        <div class="navbild">
+            <img src="./bilder/scs.png" alt="Logga">
+        </div>
+        <hr>
+        <div class="kundvagn">
+            <a href="./Kundvagn.html">
+                <img src="./bilder/shopping-cart.png" alt="kundvagn">
+            </a>
+        </div>
+        <div class="hem">
+            <a href="./index.html">
+                <img src="./bilder/home (2).png" alt="Hemknapp">
+            </a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="rubrik">
+            <h1>Kundvagn</h1>
+        </div>
+    </header>
+
+    <div class="box">
+        <div class="varor">
+
+        </div>
+        <div class="lista">
+            <div class="fulpris">
+
+            </div>
+            <div class="namn_efternamn">
+                <Input type="text" placeholder="Namn" autocomplete="off"></Input>
+                <Input type="text" placeholder="Efternamn" autocomplete="off"></Input>
+            </div>
+            <div class="pengar">
+                <Input type="text" placeholder="Kort nummer" autocomplete="off"></Input>
+                <div class="small">
+                    <Input type="text" placeholder="Date" autocomplete="off"></Input>
+                    <Input type="text" placeholder="cvv2" autocomplete="off"></Input>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

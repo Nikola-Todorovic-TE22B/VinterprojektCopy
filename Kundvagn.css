@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    
+}
+
+.box{
+    width: 94%;
+    margin-left: 6%;
+}
+
+.protest-guerrilla-regular{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    height: 5%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.rubrik > h1{
+    background-color: #2E5266;
+    width: 70%;
+    height: 90px;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rubrik{
+    padding: 50px;
+    color: #fff;
+    font-family: 'Protest Guerrilla';
+    font-size: 30px;
+}
+
+.produkten_div{
+    background-color: #2E5266;
+    width: 100%;
+}
