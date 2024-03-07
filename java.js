@@ -42,3 +42,7 @@
  }
 
  function fullprice(){}
+
+ function checkOut(){
+    localStorage.removeItem('kundvagn')
+ }
