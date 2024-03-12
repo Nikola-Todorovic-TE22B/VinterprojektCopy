@@ -30,3 +30,23 @@ nav > hr{
     width: 60px;
     height: 60px;
 }
+
+@media only screen and (max-width: 400px) {
+    nav{
+        width: 15%;
+    }
+
+    .kundvagn > a > img,
+    .hem > a > img{
+        margin-top: 20px;
+        width: 80%;
+        height: auto;
+    }
+
+    .navbild > img{
+        height: 30px;
+        width: auto;
+    }
+
+
+}

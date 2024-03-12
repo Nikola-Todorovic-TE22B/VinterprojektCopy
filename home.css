@@ -99,3 +99,31 @@ main{
     width: 100%;
     border-radius: 20px;
 }
+
+@media only screen and (max-width: 400px){
+    .box{
+        width: 85%;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .rubrik{
+        width: 90%;
+        padding: 0%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: auto;
+        font-size: large;
+        &>h1{
+            width: auto;
+        }
+    }
+}
+
+<div class="rubrik">
+                <h1>Sport Club Sweden</h1>
+            </div>
